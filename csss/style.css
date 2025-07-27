@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parant{
+    background-color: gold;
+}
+.container{
+     width: 1140px;
+     margin: 0 auto;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.manu ul{
+    display: flex;
+    gap: 30px;
+  
+}
+.manu ul li a{
+    font-size: 27px;
+}
+ button {
+    padding: 20px 30px;
+    background: yellow; 
+    border: none;
+    border-radius: 5px;
+}
+.manu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.image img{
+    width: 200px;
+}
