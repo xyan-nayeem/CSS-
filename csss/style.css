@@ -1,44 +1,317 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.parant{
-    background-color: gold;
+#header-part{
+ padding: 70px 0;
 }
+          /* <!-- ekhane menur kaj suro korci  -->  */
 .container{
-     width: 1140px;
-     margin: 0 auto;
+    width: 1170px;
+    margin: 0 auto;
 }
-ul,li{
+ul li {
     list-style-type: none;
 }
 a{
-   text-decoration: none;
+    text-decoration: none;
 }
-.father{
+.wrapper{
     display: flex;
     justify-content: space-between;
-    text-align: center;
-}
-.manu ul{
-    display: flex;
-    gap: 30px;
-  
-}
-.manu ul li a{
-    font-size: 27px;
-}
- button {
-    padding: 20px 30px;
-    background: yellow; 
-    border: none;
-    border-radius: 5px;
-}
-.manu {
-    display: flex;
-    gap: 40px;
     align-items: center;
 }
-.image img{
-    width: 200px;
+.menu ul{
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 500;
 }
+.button{
+    padding: 10px 20px;
+    background-color: #5956E8;
+    border-radius: 5px;
+}
+.button a{
+    color: #FFFFFF;
+}
+            /* <!-- ekhane menur kaj ses korci  -->  */
+
+            /* Ekhon banner ar kaj suro  */ /* Ekhon banner ar kaj suro  */  /* Ekhon banner ar kaj suro  */ /* Ekhon banner ar kaj suro  */
+#banner-part{
+    padding: 190px;
+    background: url(../images/Group\ 9975.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-wraper h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 501px;
+    color: #FFFEFE;
+    padding-bottom: 30px;
+}
+.banner-wraper p{
+    font-size: 16;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    color:#FFFEFE ;
+    padding-bottom:25px ;
+    
+}
+.contact{
+    padding: 10px 20px;
+    background-color: #FFFEFE;
+    color: #5956E8;
+    display: inline-block;
+    border-radius: 5px;
+}
+.img-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+         /* Ekhane banner ar kaj End  */   /* Ekhane banner ar kaj End  */     /* Ekhane banner ar kaj End  */
+
+              /* Ekhane box ar kaj suro *//* Ekhane box ar kaj suro */   /* Ekhane box ar kaj suro */
+         #our-service{
+            padding: 103px;
+         }
+         .service h2{
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 25px;
+         }
+         .service p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+            margin: 0 auto;
+            padding-bottom: 25px;
+            width: 470px;
+         }
+
+     .shadow-degine{
+        width: 33.33%;
+        padding: 30px;
+      box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+         border-radius: 20px;
+     }
+     .shadow-degine h3{
+       font-size: 25px;
+       font-weight: 700;
+       padding-top: 30px;
+     }
+     .shadow-degine p{
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 30px;
+       color: #181818;
+       padding-top: 30px;
+     }
+     .wrapper-ok{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+       
+     }
+     /* Ekhane box ar kaj ses*/  /* Ekhane box ar kaj ses */
+     #work-protfolio h3{
+      padding: 70px;
+     }
+     .our-work h3{
+           font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 100px;
+       
+     }
+
+     .our-work p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        margin: 0 auto;
+        width: 542px;
+        color: #181818;
+         padding-bottom: 50px;
+     }
+
+     .Png-file{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 25px;
+     }
+            /* Image ar kaj ekhane ses  */
+       #our-expert{
+      padding: 100px;
+     }
+         
+  .our-member h2{
+   font-size: 40px;
+   font-weight: 700;
+   text-align: center;
+   color: #181818;
+   padding-bottom: 30px;
+  }
+  .our-member p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 27px;
+   width: 470px;
+   margin: 0 auto;
+   color: #181818;
+   padding-bottom: 40px;
+  }
+  .member img{
+   padding-left: 10px;
+  }
+      /* Ekhane member ar kaj ses  */
+      #care-about{
+        padding: 80px;
+        
+        
+      }
+      .we-care h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: #181818;
+        width: 603px;
+        padding-bottom: 30px;
+      }
+      .we-care p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #181818;
+        width: 542px;
+        padding-bottom: 50px;
+      }
+      .ux-deginer img{
+        padding-bottom: 20px;
+        
+      }
+      .star {
+        border-bottom: 25px;
+      }
+      .both{
+             width: 33.33%;
+        padding: 30px;
+      box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+         border-radius: 20px;
+      }
+      .both p{
+        font-size: 16px;
+        font-weight:400 ;
+        line-height: 27px;
+        color: #181818;
+        width: 274px;
+      }
+      .both h4{
+        font-size: 20px;
+        font-weight:500 ;
+        line-height: 27px;
+        color: #181818;
+        width: 274px;
+        padding-bottom: 20px;
+      }
+      .both h5{
+        font-size: 16px;
+        font-weight:400 ;
+        line-height: 27px;
+        color: #181818;
+        
+      }
+      .both-order{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+       /* Ekhane star ar kaj ses  */
+        #lates{
+            padding: 110px;
+        }
+        .news h2{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+        }
+        .news p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        margin: 0 auto;
+        width: 542px;
+        padding-bottom: 20px;
+        }
+        .Buisness{
+             width: 33.33%;
+           padding: 30px;
+         box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+         border-radius: 20px;
+         margin-bottom: 10px;
+        }
+
+        .buisness img{
+         padding-bottom: 20px;
+        }
+        .Buisness h3{
+            font-size:20px ;
+            font-weight: 500px;
+            color: #181818;
+           padding-bottom: 20px;
+        }
+        .Buisness p{
+            font-size:16px ;
+            font-weight: 400px;
+            line-height: 27px;
+            color: #181818;
+             padding-bottom: 20px;
+        }
+        .Buisness a{
+            font-size:16px ;
+            font-weight:500px;
+            color: #5956E8;
+             
+        }
+        .best-blog{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+            /* Ekhane contact ar kaj suro  */
+            #contack-us{
+                padding: 200px;
+                background-color:rgb(239,239,253) ;
+            }
+            .company p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+                color: #5D5D5D;
+                width: 300px;
+               padding-top: 20px;
+            }
+            .creative{
+                display: flex;
+                justify-content: space-between;
+            }
+            .company h2{
+             font-size: 20px;
+             font-weight: 500px;
+             color: #181818;
+             padding-bottom: 20px;
+            }
+
+         
+      .help-desk{
+        display: flex;
+        gap:30px ;
+        padding-top: 20px;
+      }
